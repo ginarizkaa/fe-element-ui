@@ -1,0 +1,38 @@
+/* 
+
+LIST SECTION 
+
+> SCREEN
+> IMAGE
+> FORM
+> CARD
+
+*/
+
+/* SCREEN */
+.fullscreen {
+    height: 94vh;
+}
+/* SCREEN */
+
+/* IMAGE */
+.img-cover {
+	background-image: url('@/assets/images/basic/bg-main.png');
+	width: 100%;
+	height: 100%;
+	/* height: 94vh; */
+	position: absolute;
+	object-fit: cover;
+}
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* IMAGE */
+
+/* CARD */
+.v-sheet.v-card {
+    border-radius: 20px !important;
+}
+/* CARD */
